@@ -1,0 +1,32 @@
+title: "F4zi's blog"
+author: "F4zi"
+description: "My little cyber security blog!"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html"}
+  - {file: "README.md"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Github, icon: github, url: "https://github.com/F4zii"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/0xf4zi"}
+  - {title: Medium, icon: medium, url: "https://medium.com/@f4zi"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
